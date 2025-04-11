@@ -40,13 +40,14 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="py-20">
       <div className="section-container">
-        <h2 className="section-title">My Projects</h2>
+        <h2 className="section-title scroll-reveal">My Projects</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div 
               key={index} 
-              className="glass-card overflow-hidden rounded-xl transition-all hover:transform hover:-translate-y-2"
+              className="glass-card overflow-hidden rounded-xl transition-all hover:transform hover:-translate-y-2 scroll-reveal"
+              style={{ transitionDelay: `${index * 100}ms` }}
             >
               <div className="h-48 overflow-hidden">
                 <img 

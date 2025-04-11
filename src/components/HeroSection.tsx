@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center pt-16">
       <div className="container mx-auto px-4">
-        <div className="glass max-w-5xl mx-auto p-8 md:p-12 rounded-2xl">
+        <div className="glass max-w-5xl mx-auto p-8 md:p-12 rounded-2xl scroll-reveal">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="order-2 md:order-1 animate-fade-in">
+            <div className="order-2 md:order-1">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Sourodip Roy
                 <span className="block text-2xl md:text-3xl text-sakura dark:text-sakura-dark mt-2">

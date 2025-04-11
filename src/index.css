@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 @tailwind base;
@@ -80,10 +79,11 @@
   
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    background-image: url('/lovable-uploads/afca72dd-1ca6-4159-b4e1-e6311ba8a634.png');
+    background-image: url('/lovable-uploads/c5be178a-014e-4806-bba2-5f4d93cca1b2.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 
@@ -164,4 +164,3 @@
 .animate-pulse {
   animation: pulse 3s ease-in-out infinite;
 }
-
